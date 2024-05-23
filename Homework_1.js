@@ -5,5 +5,5 @@ console.log('one' !== 'one'); // => false
 
 const isInfant = (age) => age < 1;
 
-isInfant(3); // false
-isInfant(0.5); // true
+console.log(isInfant(3)); // false
+console.log(isInfant(0.5)); // true
